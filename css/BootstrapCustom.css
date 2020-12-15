@@ -1,0 +1,97 @@
+* {
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+a {
+  text-decoration: none;
+}
+
+.btn-link {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.navbar a {
+  color: #ffffff;
+}
+
+.btn-primary {
+  background-color: #ec407a;
+  color: #ffffff;
+  border: 1px solid #880e4f;
+}
+.btn-primary:hover {
+  background-color: #ec407a;
+  opacity: 0.8;
+  border: 1px solid #880e4f;
+}
+.btn:focus {
+  background-color: #b4004e;
+}
+
+.dropdown-menu {
+  background-color: #ff77a9;
+}
+
+/* Colour */
+.bg-pink {
+  background-color: #bc477b;
+}
+
+.price {
+}
+.price-old {
+  text-decoration: line-through;
+}
+
+/* shopping card  */
+#shopping-card {
+  width: 66px;
+  height: 66px;
+  position: relative;
+  margin: auto;
+  position: fixed;
+  bottom: 5%;
+  right: 5%;
+  z-index: 10;
+  transition: 0.5s;
+  transform: scale(1);
+}
+#shopping-card :hover {
+}
+.fa-stack{
+
+}
+.fa-circle {
+  color: rgb(24, 158, 255);
+}
+
+.red-cart {
+	color: #DF0000;
+   background:white;
+}
+
+#cart-count {
+  position: absolute;
+  font-family: 'Alata', sans-serif;
+  font-size: 17px;
+  width: 22px;
+  height: 23px;
+  top: 0;
+  right: 0;
+  z-index: 3px;
+  border-radius: 10px;
+  background-color: red;
+  text-align: center;
+  color: white;
+}
+
+
+.list-unstyled .btn-link {
+  padding: 5px 10px;
+  text-decoration: none;
+}
+.top20 {
+  padding-top: 90px !important;
+}

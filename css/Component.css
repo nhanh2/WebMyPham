@@ -1,0 +1,13 @@
+#shopping-card {
+    width: 40px;
+    height: 40px;
+}
+
+.icon40 {
+    width: 40px;
+    height: 40px;
+}
+
+.shoppingcard-icon {
+    background-image: url('/images/icon/');
+}

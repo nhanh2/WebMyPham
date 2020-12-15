@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap eCommerce Page Template</title>
+    <link href="/fontawesome/css/all.css" rel="stylesheet"> 
+    <!-- Bootstrap -->
+        <link href="css/styles.css" rel="stylesheet" />    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="css/BootstrapCustom.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script>
+      //   $(document).ready(function () {
+      //     // MDB Lightbox Init
+      //     $(function () {
+      //       $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      //     });
+      //   });
+      
+    </script>
+    <style>
+          /* body { padding-top:30px; } */
+    .widget .panel-body { padding:0px; }
+    .widget .list-group { margin-bottom: 0; }
+    .widget .panel-title { display:inline }
+    .widget .label-info { float: right; }
+    .widget li.list-group-item {border-radius: 0;border: 0;border-top: 1px solid #ddd;}
+    .widget li.list-group-item:hover { background-color: rgba(86,61,124,.1); }
+    .widget .mic-info { color: #666666;font-size: 11px; }
+    .widget .action { margin-top:5px; }
+    .widget .comment-text { font-size: 12px; }
+    .widget .btn-block { border-top-left-radius:0px;border-top-right-radius:0px; }
+    </style>
+  </head>
+  <body>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger"  href="Index.html" ><div class="" style="color: white;font-family:Georgia, 'Times New Roman', Times, serif;"><img src="beauty.svg" style="margin-right: 10px;">Beauty</div></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="brand.html">Thương hiệu </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Products.html">Sản phẩm </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="blogindex.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="LANDINGPAGE.html">Sản phẩm mới ra mắt </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html"><i class="fas fa-user" style="color: aliceblue;margin-right: 12px;"></i>Đăng nhập </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    
+    <div class="container"  >
+      <section class="mb-5 " style="margin-top: 10px;">
+        <div class="row">
+          <div class="col-md-6 mb-4 mb-md-0">
+            <div id="mdb-lightbox-ui"></div>
+
+            <div class="mdb-lightbox">
+              <div class="row product-gallery mx-1">
+                <div class="col-12 mb-0">
+                  <figure class="view overlay rounded z-depth-1 main-img">
+                    <a
+                      href="/images/"
+                      data-size="710x823"
+                    >
+                      <img
+                        src="images/productdetail.png"
+                        class="img-fluid z-depth-1"
+                      />
+                    </a>
+                  </figure>
+                </div>
+                <div class="col-12">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="view overlay rounded z-depth-1 gallery-item">
+                        <img
+                          src="images/detail2.png"
+                          class="img-fluid"
+                        />
+                        <div class="mask rgba-white-slight"></div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="view overlay rounded z-depth-1 gallery-item">
+                        <img
+                          src="images/detail2.png"
+                          class="img-fluid"
+                        />
+                        <div class="mask rgba-white-slight"></div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="view overlay rounded z-depth-1 gallery-item">
+                        <img
+                          src="images/detail1.png"
+                          class="img-fluid"
+                        />
+                        <div class="mask rgba-white-slight"></div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="view overlay rounded z-depth-1 gallery-item">
+                        <img
+                          src="images/detail1.png"
+                          class="img-fluid"
+                        />
+                        <div class="mask rgba-white-slight"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h5>Tatcha</h5>
+            <p class="mb-2 text-muted text-uppercase small">Chăm sóc da mặt</p>
+            <ul class="rating">
+            </ul>
+            <p>
+              <span class="mr-1"><strong>80.000 đ</strong></span>
+            </p>
+            <p class="pt-1">
+              Sản phẩm chuyên dụng cho da mặt 
+            </p>
+            <div class="table-responsive">
+              <table class="table table-sm table-borderless mb-0">
+                <tbody>
+                  <tr>
+                    <th class="pl-0 w-25" scope="row">
+                      <strong>Tatcha</strong>
+                    </th>
+                    <td>Shirt 5407X</td>
+                  </tr>
+                  <tr>
+                    <th class="pl-0 w-25" scope="row">
+                      <strong>Màu sắc</strong>
+                    </th>
+                    <td>Đen</td>
+                  </tr>
+                  <tr>
+                    <th class="pl-0 w-25" scope="row">
+                      <strong>Sản xuất tại :</strong>
+                    </th>
+                    <td>USA, Europe</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <hr />
+            <div class="table-responsive mb-2">
+              <table class="table table-sm table-borderless">
+                <tbody>
+                  <tr>
+                    <td class="pl-0 pb-0 w-25">Số lượng </td>
+                    <td class="pb-0">Loại</td>
+                  </tr>
+                  <tr>
+                    <td class="pl-0">
+                      <div
+                        class="def-number-input number-input safari_only mb-0"
+                      >
+                        <input
+                          class="quantity"
+                          min="0"
+                          name="quantity"
+                          value="1"
+                          type="number"
+                        />
+                      </div>
+                    </td>
+                    <td>
+                      <div class="mt-1">
+                        <div class="form-check form-check-inline pl-0">
+                          <input
+                            type="radio"
+                            class="form-check-input"
+                            id="small"
+                            name="materialExampleRadios"
+                            checked
+                          />
+                          <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="small"
+                            >Small</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline pl-0">
+                          <input
+                            type="radio"
+                            class="form-check-input"
+                            id="medium"
+                            name="materialExampleRadios"
+                          />
+                          <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="medium"
+                            >Medium</label
+                          >
+                        </div>
+                        <div class="form-check form-check-inline pl-0">
+                          <input
+                            type="radio"
+                            class="form-check-input"
+                            id="large"
+                            name="materialExampleRadios"
+                          />
+                          <label
+                            class="form-check-label small text-uppercase card-link-secondary"
+                            for="large"
+                            >Large</label
+                          >
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <button type="button" class="btn btn-primary btn-md mr-1 mb-2">
+              Buy now
+            </button>
+            <button type="button" class="btn btn-light btn-md mr-1 mb-2">
+              <i class="fas fa-shopping-cart pr-2"></i>Add to cart
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- Classic tabs -->
+<div class="classic-tabs border rounded px-4 pt-1">
+    <div class="tab-content" id="advancedTabContent">
+      <div class="tab-pane fade show active" id="description" role="tabpanel" aria-labelledby="description-tab">
+        <h5>Mô tả chi tiết sản phẩm </h5>
+        <p class="small text-muted text-uppercase mb-2">Chăm sóc da mặt</p>
+        <ul class="rating">
+        </ul>
+        <h6>80.0000</h6>
+        <p class="pt-1">Sữa Rửa Mặt Dịu Nhẹ Cho Mọi Loại Da Cetaphil Gentle Skin Cleanser là sản phẩm đến từ thương hiệu Cetaphil của Canada,thuộc công ty dược nổi tiếng Galderma Laboratories với mạng lưới phân phối rộng khắp thế giới, được các chuyên gia da liễu bào chế với thành phần giúp da mềm mại hoàn toàn không gây kích ứng với cả những làn da nhạy cảm.</p>
+      </div>
+      <div class="tab-pane fade" id="info" role="tabpanel" aria-labelledby="info-tab">
+        <h5>Additional Information</h5>
+        <table class="table table-striped table-bordered mt-3">
+          <thead>
+            <tr>
+              <th scope="row" class="w-150 dark-grey-text h6">Weight</th>
+              <td><em>0.3 kg</em></td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row" class="w-150 dark-grey-text h6">Dimensions</th>
+              <td><em>50 × 60 cm</em></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="tab-pane fade" id="reviews" role="tabpanel" aria-labelledby="reviews-tab">
+        <h5><span>1</span> review for <span>Tatcha</span></h5>
+        <div class="media mt-3 mb-4">
+          <img class="d-flex mr-3 z-depth-1" src="https://mdbootstrap.com/img/Photos/Others/placeholder1.jpg" width="62" alt="Generic placeholder image">
+          <div class="media-body">
+            <div class="d-sm-flex justify-content-between">
+              <p class="mt-1 mb-2">
+                <strong>Marthasteward </strong>
+                <span>– </span><span>January 28, 2020</span>
+              </p>
+
+            </div>
+            <p class="mb-0">Nice one, love it!</p>
+          </div>
+        </div>
+        <hr>
+        <h5 class="mt-4">Add a review</h5>
+        <p>Your email address will not be published.</p>
+        <div class="my-3">
+
+          </ul>
+        </div>
+        <div>
+          <!-- Your review -->
+          <div class="md-form md-outline">
+            <textarea id="form76" class="md-textarea form-control pr-6" rows="4"></textarea>
+            <label for="form76">Your review</label>
+          </div>
+          <!-- Name -->
+          <div class="md-form md-outline">
+            <input type="text" id="form75" class="form-control pr-6">
+            <label for="form75">Name</label>
+          </div>
+          <!-- Email -->
+          <div class="md-form md-outline">
+            <input type="email" id="form77" class="form-control pr-6">
+            <label for="form77">Email</label>
+          </div>
+          <div class="text-right pb-2">
+            <button type="button" class="btn btn-primary">Add a review</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  
+  </div>
+  <!-- Classic tabs -->
+    </div>
+    <!--Section: Block Content-->
+    
+    <div class="container">
+      <div class="row">
+          <div class="panel panel-default widget" style="width: 100%;">
+              <div class="panel-heading" style="margin-top: 30px;">
+                  <span class="glyphicon glyphicon-comment"></span>
+                  <h3 class="panel-title" >
+                      Bình luận  </h3>
+              </div>
+              <div class="panel-body">
+                  <ul class="list-group">
+                      <li class="list-group-item">
+                          <div class="row">
+                              <div class="col-xs-2 col-md-1">
+                                  <img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                              <div class="col-xs-10 col-md-11">
+                                  <div>
+                                      <a href="http://www.jquery2dotnet.com/2013/10/google-style-login-page-desing-usign.html">
+                                          Google Style Login Page Design Using Bootstrap</a>
+                                      <div class="mic-info">
+                                          By: <a href="#">Bhaumik Patel</a> on 2 Aug 2013
+                                      </div>
+                                  </div>
+                                  <div class="comment-text">
+                                      Awesome design
+                                  </div>
+                                  <div class="action">
+                                      <button type="button" class="btn btn-primary btn-xs" title="Edit">
+                                          <span class="glyphicon glyphicon-pencil"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-success btn-xs" title="Approved">
+                                          <span class="glyphicon glyphicon-ok"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                          <span class="glyphicon glyphicon-trash"></span>
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="list-group-item">
+                          <div class="row">
+                              <div class="col-xs-2 col-md-1">
+                                  <img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                              <div class="col-xs-10 col-md-11">
+                                  <div>
+                                      <a href="http://bootsnipp.com/BhaumikPatel/snippets/Obgj">Admin Panel Quick Shortcuts</a>
+                                      <div class="mic-info">
+                                          By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+                                      </div>
+                                  </div>
+                                  <div class="comment-text">
+                                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                      euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                                  </div>
+                                  <div class="action">
+                                      <button type="button" class="btn btn-primary btn-xs" title="Edit">
+                                          <span class="glyphicon glyphicon-pencil"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-success btn-xs" title="Approved">
+                                          <span class="glyphicon glyphicon-ok"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                          <span class="glyphicon glyphicon-trash"></span>
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                      <li class="list-group-item">
+                          <div class="row">
+                              <div class="col-xs-2 col-md-1">
+                                  <img src="http://placehold.it/80" class="img-circle img-responsive" alt="" /></div>
+                              <div class="col-xs-10 col-md-11">
+                                  <div>
+                                      <a href="http://bootsnipp.com/BhaumikPatel/snippets/4ldn">Cool Sign Up</a>
+                                      <div class="mic-info">
+                                          By: <a href="#">Bhaumik Patel</a> on 11 Nov 2013
+                                      </div>
+                                  </div>
+                                  <div class="comment-text">
+                                      Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
+                                      euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim
+                                  </div>
+                                  <div class="action">
+                                      <button type="button" class="btn btn-primary btn-xs" title="Edit">
+                                          <span class="glyphicon glyphicon-pencil"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-success btn-xs" title="Approved">
+                                          <span class="glyphicon glyphicon-ok"></span>
+                                      </button>
+                                      <button type="button" class="btn btn-danger btn-xs" title="Delete">
+                                          <span class="glyphicon glyphicon-trash"></span>
+                                      </button>
+                                  </div>
+                              </div>
+                          </div>
+                      </li>
+                  </ul>
+                  <a href="#" class="btn btn-primary btn-sm btn-block" role="button"><span class="glyphicon glyphicon-refresh"></span> More</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+    <!--Section: Block Content-->
+
+    <hr />
+    <div class=" text-white bg-pink p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-md-8 col-lg-7">
+                  <div class="row text-center">
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                      <ul class="list-unstyled">
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                      <ul class="list-unstyled">
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                      </ul>
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                      <ul class="list-unstyled">
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                        <li class="btn-link"><a>Link Giới thiệu</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-md-4 col-lg-5 col-6">
+                  <address>
+                    <strong>Mỹ phẩm hàng đầu </strong><br />
+                    Nhiều loại mỹ phẩm<br />
+                    293 Ô chợ dừa<br />
+                    <abbr title="Phone"></abbr> Số điện thoại : 077421699
+                  </address>
+                  <address>
+                    <strong>Full Name</strong><br />
+                    <a href="mailto:#">first.last@example.com</a>
+                  </address>
+                </div>
+              </div>
+        </div>
+
+    </div>
+    <footer class="text-center">
+
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>

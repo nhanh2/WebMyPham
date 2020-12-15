@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Bootstrap eCommerce Page Template</title>
+    <link href="/fontawesome/css/all.css" rel="stylesheet" />
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet" />
+        <link href="css/styles.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="css/BootstrapCustom.css" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    
+    
+    <script>
+      //   $(document).ready(function () {
+      //     // MDB Lightbox Init
+      //     $(function () {
+      //       $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+      //     });
+      //   });
+    </script>
+    <style>
+      .card-text {
+        font-size: 12px;
+      }
+      .card .btn-primary {
+        font-size: 12px;
+      }
+      .slide-menue a {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        border: 0px;
+        border-left: 5px solid #bc477b;
+        text-decoration: none;
+        
+      }
+      .slide-menue a:hover {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+        border: 0px;
+        border-left: 5px solid pink;
+        
+      }
+    </style>
+  </head>
+  <body>
+    <div id="shopping-card" style="">
+      <span class="fa-stack fa-2x">
+      <i class="fa fa-circle fa-stack-2x"></i>
+      <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+      </span>
+      <div id="cart-count">0</div>
+    </div>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand js-scroll-trigger"  href="Index.html" ><div class="" style="color: white;font-family:Georgia, 'Times New Roman', Times, serif;"><img src="beauty.svg" style="margin-right: 10px;">Beauty</div></a>
+                <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars ml-1"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav text-uppercase ml-auto">
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="brand.html">Thương hiệu </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="Products.html">Sản phẩm </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="blogindex.html">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="LANDINGPAGE.html">Sản phẩm mới ra mắt </a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="login.html"><i class="fas fa-user" style="color: aliceblue;margin-right: 12px;"></i>Đăng nhập </a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    <div class="container" style="padding-top:90px" >
+      <div class="row">
+        <div class="col-lg-3 slide-menue">
+          <h1 class="my-4">Logo</h1>
+          <div class="list-group">
+            <a href="#" class="list-group-item">DIM</a>
+            <a href="#" class="list-group-item">Axauxis</a>
+            <a href="#" class="list-group-item">Audition</a>
+            <a href="#" class="list-group-item">Luxury</a>
+
+          </div>
+        </div>
+        <!-- /.col-lg-3 -->
+
+        <div class="col-lg-9">
+          <div class="container">
+            <div class="row">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide col-lg-12"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="images/download.jpeg"
+                      alt="First slide"
+                    />
+                  </div>
+                  <!-- <div class="carousel-item">
+                      <img class="d-block w-100" src="..." alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="..." alt="Third slide">
+                    </div> -->
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="row text-center" style="margin-top: 12px">
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center" style="margin-top: 20px">
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+
+
+
+            <!-- product 2  -->
+            <div class="row" style="margin-top: 20px;">
+              <div
+                id="carouselExampleControls"
+                class="carousel slide col-lg-12"
+                data-ride="carousel"
+              >
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img
+                      class="d-block w-100"
+                      src="images/download.jpeg"
+                      alt="First slide"
+                    />
+                  </div>
+                  <!-- <div class="carousel-item">
+                      <img class="d-block w-100" src="..." alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                      <img class="d-block w-100" src="..." alt="Third slide">
+                    </div> -->
+                </div>
+                <a
+                  class="carousel-control-prev"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="prev"
+                >
+                  <span
+                    class="carousel-control-prev-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a
+                  class="carousel-control-next"
+                  href="#carouselExampleControls"
+                  role="button"
+                  data-slide="next"
+                >
+                  <span
+                    class="carousel-control-next-icon"
+                    aria-hidden="true"
+                  ></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
+            </div>
+            <div class="row text-center" style="margin-top: 12px">
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row text-center" style="margin-top: 20px">
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 pb-1 pb-md-0">
+                <div class="card">
+                  <img
+                    class="card-img-top"
+                    src="images/400X200.gif"
+                    alt="Card image cap"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">
+                      <span class="price">80.0000 đ</span>
+                    </h5>
+                    <h6 class="card-title">
+                      <span class="price-old">180.0000 đ</span>
+                    </h6>
+                    <p class="card-text">
+                      Sản phẩm chất lượng với giá
+                      <span class="price">80.0000 đ</span> cực kỳ thân thiện.
+                    </p>
+                    <a href="#" class="btn btn-primary"><i class="fa fa-cart-plus" aria-hidden="true"></i></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        
+        <!-- /.col-lg-9 -->
+      </div>
+      <!-- Classic tabs -->
+    </div>
+    <!--Section: Block Content-->
+
+    <!--Section: Block Content-->
+
+    <hr />
+    <div class="text-white bg-pink p-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-6 col-md-8 col-lg-7">
+            <div class="row text-center">
+              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                <ul class="list-unstyled">
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                <ul class="list-unstyled">
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                </ul>
+              </div>
+              <div class="col-sm-6 col-md-4 col-lg-4 col-12">
+                <ul class="list-unstyled">
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                  <li class="btn-link"><a>Link Giới thiệu</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-lg-5 col-6">
+            <address>
+              <strong>Mỹ phẩm hàng đầu </strong><br />
+              Nhiều loại mỹ phẩm<br />
+              293 Ô chợ dừa<br />
+              <abbr title="Phone"></abbr> Số điện thoại : 077421699
+            </address>
+            <address>
+              <strong>Full Name</strong><br />
+              <a href="mailto:#">first.last@example.com</a>
+            </address>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center"></footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+	<script src="js/main.js"></script>
+    
+  </body>
+</html>
