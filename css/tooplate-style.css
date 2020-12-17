@@ -42,6 +42,7 @@ body {
 .tm-address-box { padding: 35px 30px 10px; }
 
 .tm-sidebar {
+	margin-left: 100px;
 	float: none;
 	width: 100%;
 	max-width: 100%;
@@ -347,7 +348,7 @@ address { line-height: 2; }
 
 @media (min-width: 1200px) {
 	.container-fluid { max-width: 1200px; }
-	.tm-sidebar { width: 340px;	}
+	.tm-sidebar { width: 260px;	}
 	.tm-nav-item-link { padding: 12px; }
 	.tm-main-content { margin-left: 370px; }
 	.tm-section-title { margin-bottom: 20px; }
@@ -356,7 +357,7 @@ address { line-height: 2; }
 
 @media (min-width: 1400px) {
 	.container-fluid { max-width: 1605px; }
-	.tm-sidebar { width: 360px; }
+	.tm-sidebar { width: 300px; }
 	.media-body { height: 348px; }
 	.tm-main-content { margin-left: 415px; }
 	.tm-section-title { margin-bottom: 30px; }
